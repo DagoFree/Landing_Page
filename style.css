@@ -1,0 +1,187 @@
+body {
+    font-family:Helvetica,sans-serif;
+    
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;   
+}
+
+
+.header, .footer{
+    background-color:#1F2937 ;
+    color:#F9FAF8;
+    display:flex; 
+    align-items:center;
+    gap:15px;  
+    padding:0 15px;
+}
+
+.header img{
+    width:70px;
+    height:auto;
+    margin-right:-5px;
+}
+
+.title {
+    margin-bottom:-5px;
+    font-size:24px;
+}
+
+.search {
+    flex:1;
+    border:1px solid rgb(49, 65, 117);
+    height:30px;
+    padding:0;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+
+    
+}
+
+svg {
+    
+    width:25px;
+}
+
+.header ul {
+    list-style:none;
+    display:flex;
+    gap:15px;
+    margin-left:auto;
+}
+
+a{
+text-decoration:none;
+color:#F9FAF8;
+}
+input { 
+    background-color:transparent;
+    border:none;
+    color:#F9FAF8;
+    width:auto;
+    height:25px;
+    flex:1;
+    
+}
+
+.content {
+    background-color:#1F2937;
+    padding:70px 100px;
+    color:#F9FAF8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+.left-content {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.left-content ul{
+    flex:1;
+    padding:0;
+    list-style:none;
+}
+
+.left-content h1{
+    width:auto;
+    margin:0;
+}
+
+.content img {
+    width:300px;
+    height:auto;
+    border-radius: 5%;
+    filter:drop-shadow(3px 3px 3px #61618a);
+}
+
+.content button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border:none;
+    border-radius:3px;
+    padding:5px 25px;
+
+}
+
+.information {
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    justify-content:center;
+    align-items:center;
+    color:#1f2937d8;
+}
+
+.title-information {
+    font-size:34px;
+    font-weight:600;
+}
+
+.cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:50px;
+    gap : 20px;
+}
+
+.card {
+    width: 200px;
+    text-align:center;
+   
+}
+
+.card img {
+    width:auto;
+    height:150px;
+    filter:drop-shadow(5px 5px 5px #61618a);
+}
+
+strong {
+    font-size:19px;
+}
+
+.quote {
+    background-color:#E5E7EB;
+    color:#1f2937e1;
+    padding:50px 100px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.inscription {
+    padding: 50px;
+}
+
+.pub {
+    background-color:#3882F6;
+    border-radius:2%;
+    color:#E5E7EB;
+    padding:15px 70px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.pub button {
+    background-color:transparent;
+    color:#E5E7EB;
+    border:1px solid white;
+    padding:5px 20px;
+    min-width:100px;
+    border-radius:7%;
+    margin-left:auto;
+}
+
+.footer {
+    justify-content:center;
+    padding:20px;
+}
